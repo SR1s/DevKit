@@ -1,4 +1,4 @@
-package com.roalab.libdev;
+package com.roalab.devkit.sample;
 
 import org.junit.Test;
 
