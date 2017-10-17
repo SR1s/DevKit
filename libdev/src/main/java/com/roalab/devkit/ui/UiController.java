@@ -64,7 +64,7 @@ public class UiController<EventType extends UiEvent, UiOperationInterface extend
      * 分发Ui操作事件到主线程
      * @return
      */
-    public UiOperationInterface onUiThread() {
+    public UiOperationInterface runOnUiThread() {
         return mDispatcher;
     }
 
