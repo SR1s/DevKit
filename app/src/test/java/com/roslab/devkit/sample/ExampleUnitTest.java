@@ -1,4 +1,4 @@
-package com.roalab.devkit.sample;
+package com.roslab.devkit.sample;
 
 import org.junit.Test;
 

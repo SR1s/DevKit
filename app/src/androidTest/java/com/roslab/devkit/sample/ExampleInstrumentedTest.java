@@ -1,4 +1,4 @@
-package com.roalab.devkit.sample;
+package com.roslab.devkit.sample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
