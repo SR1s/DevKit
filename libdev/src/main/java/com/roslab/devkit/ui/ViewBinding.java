@@ -1,4 +1,4 @@
-package com.roalab.devkit.ui;
+package com.roslab.devkit.ui;
 
 import android.support.annotation.IdRes;
 import android.support.annotation.LayoutRes;

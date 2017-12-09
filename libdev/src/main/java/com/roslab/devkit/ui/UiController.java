@@ -1,4 +1,4 @@
-package com.roalab.devkit.ui;
+package com.roslab.devkit.ui;
 
 import android.os.Handler;
 import android.os.Looper;
@@ -86,7 +86,7 @@ public class UiController<EventType extends UiEvent, UiOperationInterface extend
                             @Override
                             public void run() {
                                 try {
-                                    method.invoke(this, args);
+                                    method.invoke(UiController.this, args);
                                 } catch (Exception ex) {
                                     Log.w(TAG, "invoke method: " + method.getName() + " fail with args: " + Arrays.toString(args), ex);
                                 }
